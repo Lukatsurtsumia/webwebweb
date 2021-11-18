@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-height:87px;
+    background-color: #34495e;
+    font-family: Sans-serif;
+}
+body{
+    background-color: #522c4c;
+}
+.logo{
+    margin-left: 200px;
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 120px;
+}
+h1{
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 43px;
+}
+.login{
+    margin-right: 100px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 40px;
+    margin-top: 15px;
+    font-size: 23px;
+    background-color: #34495e;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.boxing{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 4px;
+  
+    margin-left:37%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 550px;
+    
+   align-items: center;
+
+}
+.signup_box h5{
+    margin: 30px 0;
+}
+
+.boxing label{
+
+    font-family: sans-serif;
+    font-size: 24px;
+   
+    margin-top: 30px;
+    color: white;
+    display: block;
+
+}
+.boxing input{
+  width: 280px;
+   
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    
+}
+.signin_box button{
+    width: 150px;
+
+    height: 50px;
+    cursor: pointer;
+    margin-left:170px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:#34495e ;
+    align-items: center;
+}
+.signin_box label, input, p,button{
+    margin-left: 200px;
+
+}
+.signup_box button{
+    width: 150px;
+
+    height: 50px;
+    cursor: pointer;
+    margin-left:170px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:#34495e ;
+    align-items: center;
+}
+.signup_box label, input{
+    margin-left: 100px;
+    
+}
+.signup_box p{
+    margin-left: 140px;
+}
+
+header a{
+    font-size: 24px;
+
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 100%;
+    max-height: 110px;
+    font-family: sans-serif;
+    background-color: #34495e;
+    top: 88.7%;
+    position:absolute;
+
+    
+}
+.signin_box h5{
+    margin-top: 50px;
+}
+h5{
+    
+    font-size: 32px;
+    
+}
+.footer p{
+    font-size: 20px;
+}
+.footer p, h5{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 2px;
+}
+.foot_container{
+    margin-left: 43%;
+    margin-top: 15px;
+}
+.foot_container ul li {
+    font-size: 24px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
